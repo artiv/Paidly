@@ -16,8 +16,8 @@ app.get('/', function(request, response) {
   var data = fs.readFileSync('main.html').toString();
   response.send(data);
 });
-app.listen(port, function() {
-  console.log("Listening on " + port);})
+http.createServer(app).listen(port, function() {
+      console.log("Listening on " + port)});
 
 
 
