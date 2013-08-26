@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paidly | 3 (super simple) steps to paying anyone, anywhere.</title>
+<!--<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">-->
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+ <!--[if lt IE 9]>
+      <script src="tml5shiv.js"></script>
+      <script src="respond.min.js"></script>
+    <![endif]-->
+
+
+<style type="text/css">
+body {
+         padding-top: 50px;
+        
+        }
+        a.navbar-brand{ max-height: 50px; padding-top: 5px; padding-bottom: 5px;
+       }
+        
+       img.logo{ padding: 0; margin:0; border:0; }
+       .page-header {margin-bottom: }
+       .jumbotron { background-color: transparent; background-image: url("jumbotron_black.png") }
+.footer {
+padding-bottom: 10px; overflow: hidden; background-color: #151515;
+        color: #cccccc;
+        text-align: center;
+      }
+      .footer p {
+        font-size: 11px;
+      }
+      .iphone {
+  position: relative;
+  width: 375px;
+  margin: 0 auto;
+  height: 806px;
+  font-family: "Helvetica Neue", sans-serif;
+background-image: url("iPhone/iphone.png");
+}
+.iphone .iphone-content {
+  position: absolute;
+  top: 147px;
+  left: 27px;
+  width: 320px;
+  height: 548px;
+  overflow: hidden;
+  background-color: white;
+  
+}
+.galaxy {
+  position: relative;
+  
+  background-image: url('Android/galaxy-vert-scaled.png');
+  height: 744px;
+  width: 379px;
+  margin: 0 auto;
+  z-index: 4;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+.galaxy-content {
+  position: absolute;
+  top: 94px;
+  left: 29px;
+  width: 320px;
+  height: 526px;
+  overflow: hidden;
+}
+     </style>
+</head>
+<body data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse bs-docs-nav" role="navigation" id="navbar-example2">
+  <div class="navbar-header">
+
+    <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#" ><img src="paidly_sized_white.png" alt="kuch bhi" class="logo img-responsive"></img> </a>
+	</div>
+    
+	
+    <!-- Place everything within .nav-collapse to hide it until above 768px -->
+    <div class="navbar-collapse collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+    <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      Try it <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+      <li role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" class="android-btn">Android</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" data-toggle="modal" class="iphone-btn">iPhone</a></li>
+    </ul>
+  </li>
+  <li><a href="#accordion">FAQ</a></li>
+  <li><a href="#about">About</a></li>
+  </ul>
+  
+    </div><!-- /.nav-collapse -->
+  
+</nav>
+<div class="jumbotron">
+
+  <p class="text-center">3 <small>(super simple)</small> steps to paying anyone, anywhere</p>
+  <h1 class="text-center">Paidly.</h1>
+  <p class="text-center">Try it now. </p>
+  
+  <p class="text-center"><a data-toggle="modal" class="btn btn-primary android-btn" style="padding-right : 10px" >Android</a> <a data-toggle="modal"  class="btn btn-primary iphone-btn">iPhone</a></p>
+<div class=></div>
+</div>
+<!-- Banner for Mozilla/IE -->
+      <div class="alert alert-info alert-dismissable">
+      	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <p><strong>Heads up!</strong> Prototypes might appear broken in non Webkit browsers like the one you are using now.</p>
+      </div>
+
+      <!--[if IE]>
+      <div class="notice-banner">
+      	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <p><strong>Heads up!</strong> Prototypes might appear broken in non Webkit browsers like the one you are using now.</p>
+      </div>
+      <![endif]-->
+
+<div class="container">
+
+<!-- Modal -->
+  <div class="modal fade" id="ip" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Barebones iPhone version</h4>
+        </div>
+        <div class="modal-body">
+        <div class="iphone">
+          
+          <iframe class="iphone-content" seamless sandbox="allow-same-origin allow-scripts allow-forms allow-top-navigation" src=file:///C:/Users/Pranay%20Shah/Desktop/Paidly/iPhone/main.html> </iframe>
+        
+        </div>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <div class="modal fade" id="android" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Barebones Android version</h4>
+        </div>
+        <div class="modal-body">
+        <div class="galaxy">
+ 
+      <iframe class="galaxy-content" seamless sandbox="allow-same-origin allow-scripts allow-forms allow-top-navigation" src=file:///C:/Users/Pranay%20Shah/Desktop/Paidly/Android/html/index.html> </iframe>
+
+</div>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+<div class="page-header">
+<h1 class="text-center">Why you might just need Paidly?</h1></div>
+<div class="row">
+<ul class= "list-inline text-center">
+				<li class="col-lg-4 col-12">
+				1. You have got better things to do than standing in <strong>long, long</strong> queues.
+				</li>
+            <li class="col-lg-4 col-12">
+            2. You are patient but not particularly fond of filling in 11 digit bank codes, OTPs more than one time, and the your DNA sequence from the 13th chromosome.
+            </li>
+            <li class="col-lg-4 col-12">
+            3. You want it to be as simple as 1,2 and 3.
+            </li>
+</ul></div>
+<div class="page-header">
+<h1 class="text-center">How simple it all is:</h1></div>
+<div class="row">
+<ul class= "list-inline text-center">
+<dl class="col-lg-4">
+              <dt class = "text-center">1. Choose who you want to pay</dt>
+              <dd class = "text-center">You can choose to pay someone from your phone's contacts list, someone with whom you have had previous e-transaction, or even someone from Nairobi who only has a bank account. <small>Everything just works.</small></dd>
+            </dl>
+            <dl class="col-lg-4">
+              <dt>2. Enter the amount you want to pay</dt>
+              <dd class = "text-center">Pay in your local currency, in the receiver's currency. Our system handles everything else for you.</dd>
+            </dl>
+            <dl class="col-lg-4">
+              <dt>3. Drool over the simplicity of all this</dt>
+              <dd class = "text-center">Click the pay button and you are done. </dd>
+            </dl>
+</ul></div>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Just how safe is it going to be?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        Paidly is going to be built on the same technologies which power the best of websites the world over. Military grade encryption with SSL/TSL and multi-factor authentication mean you can rest assured that your accounts will never be compromised with.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Cool, but how many bucks?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        Free to use. Donation supported. :)
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          By when would the first version come out?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        In this time-space continuum, within the next six months.
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<div id= "about" class="row footer">
+<h3>Site stitched by <a href="https://www.facebook.com/greatpranayshah">Pranay Shah</a></h3>
+<p> My sincerest thanks to all the open source technologies which made this happen.
+
+          <p>This work is licensed under
+            the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC
+              By-SA 3.0
+            </a>, without all the cruft that would otherwise be
+            put at the bottom of the page.</p>
+            </div>
+
+<!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52014cbf749e3502"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'dark',
+    'share' : {
+      'position' : 'left',
+      'numPreferredServices' : 3
+    }, 
+    'follow' : {
+      'services' : [
+        {'service': 'facebook', 'id': 'paidly'},
+        {'service': 'google_follow', 'id': '101947921934599083767'}
+      ]
+    }   
+  });
+</script>
+<!-- AddThis Smart Layers END -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+   
+<script type="application/javascript" charset="UTF-8"> function adjustStyle(width) {
+    width = parseInt(width);
+    if (width < 380) {
+        $("a.iphone-btn").attr("href", "iPhone/main.html");
+        $("a.iphone-btn").attr("target", "_blank");
+        $("a.android-btn").attr("href", "Android/html/index.html");
+        $("a.android-btn").attr("target", "_blank");
+    } else {
+       $("a.iphone-btn").attr("href", "#ip");
+       $("a.android-btn").attr("href", "#android"); 
+    }
+}
+
+$(function() {
+    adjustStyle($(this).width());
+    $(window).resize(function() {
+        adjustStyle($(this).width());
+    });
+});</script>
+</body>
+</html>

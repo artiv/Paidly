@@ -1,0 +1,26 @@
+{
+  "name": "Paidly",
+  "version": "0.0.1",
+  "description": "3 (super simple) steps to paying anyone, anywhere",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sequelize": "~2.0.0-alpha3",
+    
+    "ejs": "~0.8.4",
+    "express": "~3.3.5",
+    "async": "~0.2.9"
+  },
+  "engines": {
+    "node": "0.10.16",
+    "npm": "1.3.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artiv/Paidly"
+  },
+  "author": "Pranay Shah",
+  "license": "copyright"
+}
