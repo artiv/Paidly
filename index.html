@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Paidly | 3 (super simple) steps to paying anyone, anywhere.</title>
-<link rel="shortcut icon" href="favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link href='http://fonts.googleapis.com/css?family=Podkova:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -23,8 +24,9 @@ body {
        }
         .navbar{font-family: 'Podkova', serif; }
        img.logo{ padding: 0; margin:0; border:0; }
-       .page-header {margin-bottom: }
+       
        .jumbotron { background-color: transparent;  }
+   @media (min-width: 980px) {     .pad {padding-bottom: 70px;} }
 .footer {
 padding-bottom: 10px; overflow: hidden; background-color: #151515;
         color: #cccccc;
@@ -72,6 +74,19 @@ background-image: url("iPhone/iphone.png");
 }
 
      </style>
+     <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43671878-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 <body data-spy="scroll" data-target="#navbar-example2" data-offset="0">
 <div id="fb-root"></div>
@@ -114,7 +129,7 @@ background-image: url("iPhone/iphone.png");
   <li><a href="#about">About</a></li>
   </ul>
   <ul class="nav navbar-nav navbar-right">
-  <li class="navbar-right"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fpaidly.co" target="_blank">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fpaidly.co" target="_blank">
   <i class="icon-facebook icon-large"></i>
 </a>
 </li>
@@ -140,7 +155,10 @@ background-image: url("iPhone/iphone.png");
       <i class="icon-google-plus icon-large"></i>
     </a>
     <ul class="dropdown-menu" role="menu">
-      <li  role="presentation"></li>
+      <li  role="presentation"> 
+      <!-- Place this tag where you want the share button to render. -->
+<div class="g-plus" data-action="share" data-href="http://www.paidly.co"></div>
+</li>
     </ul>
   </li>
   <li class="dropdown">
@@ -148,7 +166,8 @@ background-image: url("iPhone/iphone.png");
       <i class="icon-btc icon-large"></i>
     </a>
     <ul class="dropdown-menu" role="menu">
-      <a class="coinbase-button" data-button-text="Preorder With Bitcoin" data-code="bdb06fd1ced4dc14fc31de20522d3970" data-button-style="custom_small" href="https://coinbase.com/checkouts/bdb06fd1ced4dc14fc31de20522d3970">Preorder With Bitcoin</a>
+    <li class="dropdown">
+      <a class="coinbase-button" data-button-text="Preorder with Bitcoin" data-code="c7da5e1c89519a69759cb23315734e7e" data-button-style="custom_small" href="https://coinbase.com/checkouts/c7da5e1c89519a69759cb23315734e7e">Preorder With Bitcoin</a>
     </ul>
   </li>
   
@@ -217,8 +236,8 @@ background-image: url("iPhone/iphone.png");
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
 <div class="page-header">
-<h1 class="text-center">Why you might just need Paidly?</h1></div>
-<div class="row">
+<h1 class="text-center">Why you might just need Paidly?</h1> </div>
+<div class="row pad">
 <ul class= "list-inline text-center">
 				<li class="col-lg-4 col-12">
 				1. You have got better things to do than standing in <strong>long, long</strong> queues.
@@ -229,10 +248,10 @@ background-image: url("iPhone/iphone.png");
             <li class="col-lg-4 col-12">
             3. You want it to be as simple as 1,2 and 3.
             </li>
-</ul></div>
+</ul> </div>
 <div class="page-header">
 <h1 class="text-center">How simple it all is:</h1></div>
-<div class="row">
+<div class="row pad">
 <ul class= "list-inline text-center">
 <dl class="col-lg-4">
               <dt class = "text-center">1. Choose who you want to pay</dt>
@@ -247,7 +266,7 @@ background-image: url("iPhone/iphone.png");
               <dd class = "text-center">Click the pay button and you are done. </dd>
             </dl>
 </ul> </div>
-<div class="panel-group" id="accordion">
+<div class="panel-group" id="accordion pad">
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
@@ -258,7 +277,7 @@ background-image: url("iPhone/iphone.png");
     </div>
     <div id="collapseFour" class="panel-collapse collapse">
       <div class="panel-body">
-        Think along the lines, paying anyone, anywhere, and you will see the difference.
+        Think along the lines, paying anyone, anywhere, and you will see the difference. For starters, however, the ones you want to pay need not know about Paidly let alone having a merchant account setup with us.
       </div>
     </div>
   </div>
@@ -286,7 +305,7 @@ background-image: url("iPhone/iphone.png");
     </div>
     <div id="collapseTwo" class="panel-collapse collapse">
       <div class="panel-body">
-        A small one time fee of  :)
+        A small one time fee of  0.01 BTC :)
       </div>
     </div>
   </div>
@@ -309,9 +328,18 @@ background-image: url("iPhone/iphone.png");
 </div>
 <div id= "about" class="row footer">
 <h5>Site stitched by <a href="https://www.facebook.com/greatpranayshah">Pranay Shah</a></h5>
-<p> My sincerest thanks to all the open source technologies which made sites like these possible. </p>
+<p> My sincerest thanks to all the open source technologies which make sites like these possible. </p>
 
             </div>
+            
+<!-- Place this tag after the last share tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
@@ -336,5 +364,18 @@ $(function() {
         adjustStyle($(this).width());
     });
 });</script>
+<script src="iPhone/fingerblast.js" > </script>
+
+<script type="application/javascript" charset="UTF-8"> $(window).on('load', function () { new FingerBlast('.iphone-content'); new FingerBlast('.galaxy-content');}); </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43671878-1', 'paidly.co');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
