@@ -22,7 +22,12 @@ body {
         }
         a.navbar-brand{ max-height: 50px; padding-top: 5px; padding-bottom: 5px;
        }
-        .navbar{font-family: 'Podkova', serif; }
+        .navbar{font-family: 'Podkova', serif; border-bottom: 1px solid #ddd;
+box-shadow: 0 0 4px #eee; background: rgba(255,255,255,.9); z-index: 100; }
+.navbar-inverse .navbar-nav>.active>a {background-color: transparent; color: #000;}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+color: #333; background-color: transparent;}
        img.logo{ padding: 0; margin:0; border:0; }
        
        .jumbotron { background-color: transparent;  }
