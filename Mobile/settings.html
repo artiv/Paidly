@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Paidly</title>
+</head>
+<body>
+    <div data-role="page" data-theme="b">
+ <div data-role="panel" id="mypanel" data-position="left" data-display="push" data-theme="b">
+    
+		<ul data-role="listview">
+			<li><a href="a.html">Choose who you want to pay</a></li>
+			<li><a href="b.html" class="ui-disabled">Set the amount</a></li>
+			<li><a href="c.html" class="ui-disabled">Confirm</a></li>
+			<li><a href="settings.html" class="ui-btn-active">Settings</a></li>
+			
+		</ul>
+	
+</div>
+        <div data-role="header" data-theme="b">
+       <a href="main.html" data-role="button" data-icon="home" data-iconpos="notext" title="Home" data-iconshadow="false" class="ui-icon-nodisc"></a>
+            <h1>Paidly</h1>
+            <a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext" title="Options" data-iconshadow="false" class="ui-icon-nodisc"></a>
+        </div><!-- /header -->
+ 
+        <div data-role="content" data-theme="b">
+        	<p>There is a few things you could do here. The simplest would be to upload any statement of the bank with which Paidly is to be linked and we will crunch away as much data as we can.</p>
+        	<label for="file">Upload a statement here:</label>
+<input type="file" name="file" id="file" value="">
+			<p>Or you could fill out a boring form on our website, your call either way. </p>
+			<a href="http://www.paidly.co" data-icon="forward" data-iconpos = "right" data-role="button">Fill it up on our website</a>
+
+        </div><!-- /content -->
+    </div><!-- /page -->
+</body>
+</html>

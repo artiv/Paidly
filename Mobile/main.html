@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <title>Paidly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+  <style type="text/css">
+ body {font-family:"Helvetica Neue", sans-serif;
+  color: #222;}
+</style>
+</head>
+<body>
+    <div data-role="page" data-theme="b">
+ <div data-role="panel" id="mypanel" data-position="left" data-display="push" data-theme="b">
+    
+		<ul data-role="listview">
+			<li><a href="a.html">Choose who you want to pay</a></li>
+			<li><a href="b.html" class="ui-disabled">Set the amount</a></li>
+			<li><a href="c.html" class="ui-disabled">Confirm</a></li>
+			<li><a href="settings.html">Settings</a></li>
+			<li><a href="#popupLogin" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-icon="check" data-theme="b" data-transition="pop">Sign in</a></li>
+		</ul>
+	
+</div>
+        <div data-role="header" id="my-header" data-theme="b">
+            <h1>Paidly</h1>
+            <a href="#mypanel" data-role="button" data-inline="true" data-icon="bars" data-iconpos="notext" title="Options" data-iconshadow="false" class="ui-icon-nodisc"></a>
+        </div><!-- /header -->
+ 
+        <div data-role="content" style="text-align:center">
+        <h2 style="text-align:center">Welcome to</h2>
+            <img src="../paidly_sized_white.png" alt="Paidly">
+            <p>We have made it super simple to get started. Choose the options menu, and get going.</p>
+            
+<div data-role="popup" id="popupLogin" data-theme="a" class="ui-corner-all" data-theme="b">
+    <form>
+        <div style="padding:10px 20px;">
+            <h3>Please sign in</h3>
+            <label for="un" class="ui-hidden-accessible">Username:</label>
+            <input type="text" name="user" id="un" value="" placeholder="username" data-theme="a">
+            <label for="pw" class="ui-hidden-accessible">Password:</label>
+            <input type="password" name="pass" id="pw" value="" placeholder="password" data-theme="a">
+            <button type="submit" data-theme="b" data-icon="check">Sign in</button>
+        </div>
+    </form>
+</div>
+        </div><!-- /content -->
+
+ 
+    </div><!-- /page -->
+</body>
+</html>

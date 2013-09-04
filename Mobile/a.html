@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Paidly</title>
+</head>
+<body>
+    <div data-role="page" data-theme="b">
+ <div data-role="panel" id="mypanel" data-position="left" data-display="push" data-theme="b">
+    
+		<ul data-role="listview">
+			<li><a href="a.html" class="ui-btn-active">Choose who you want to pay</a></li>
+			<li><a href="b.html" class="ui-disabled">Set the amount</a></li>
+			<li><a href="c.html" class="ui-disabled">Confirm</a></li>
+			<li><a href="settings.html">Settings</a></li>
+			
+		</ul>
+	
+</div>
+        <div data-role="header" data-theme="b">
+        <a href="main.html" data-role="button" data-icon="home" data-iconpos="notext" title="Home" data-iconshadow="false" class="ui-icon-nodisc"></a>
+            <h1>Paidly</h1>
+            <a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext" title="Options" data-iconshadow="false" class="ui-icon-nodisc"></a>
+        </div><!-- /header -->
+ 
+        <div data-role="content" data-theme="b">
+        <p>Start typing in the name (of the person, service, organization) below, and select the best match. </p>
+        <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="The name here"> </ul>
+        <a href="b.html" data-role="button" data-icon="arrow-r" data-iconpos="right" title="Step 2" data-iconshadow="false" class="ui-icon-nodisc">Now to step 2</a>
+        </div><!-- /content -->
+ 		
+
+ 
+    </div><!-- /page -->
+</body>
+</html>
